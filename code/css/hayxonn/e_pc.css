@@ -12,10 +12,10 @@
   /* #headBox -------------------------------------------- */
   #headBox {
     position:absolute;
-    width:100%; height:100px;
+    width:100%; height:70px;
     top:0; left:0; z-index:100;
     padding:1rem; box-sizing: border-box;
-    background-color:transparent;
+    background-color:#6F7D9F;
   }
   
   #naviBox { width:auto; height:auto; }
@@ -24,7 +24,7 @@
     float:left;
     width:25%; height:auto; margin:auto;
     text-align: center;
-    padding-top:1rem;
+    padding-top:0.5rem;
   }
   #naviBox li a {
     font-size: 1.3rem; text-transform: uppercase;
@@ -38,10 +38,10 @@
   
   #homeBox {
     position: relative;
-    width:100%; height: 100vh; min-height:500px; max-height: 1000px;
+    width:100%; height: 100vh; min-height:500px; max-height: 1100px;
     padding:1.5rem;
     box-sizing: border-box;
-    background-color: #6F7D8F;
+    background-color: #6F7D9F;
   }
   
   #homeBox .button_line {
@@ -220,8 +220,8 @@
     border:0.5px solid #2D2E82;
   }
 
-  .resume a:focus { outline: 0; background-color: #6F7D8F; color:#fff; }
-  .resume a:hover { background-color: #6F7D8F; color:#fff; }
+  .resume a:focus { outline: 0; background-color: #6F7D9F; color:#fff; }
+  .resume a:hover { background-color: #6F7D9F; color:#fff; }
   
   
   /* #workBox --------------------------------------------------------- */
@@ -266,8 +266,8 @@
     border:1px solid #2D2E82;
     border-radius:5px;
   }
-  .port_01 li > a:focus { outline:0; background-color: #6F7D8F; color:#fff; }
-  .port_01 li > a:hover { background-color: #6F7D8F; color:#fff; }
+  .port_01 li > a:focus { outline:0; background-color: #6F7D9F; color:#fff; }
+  .port_01 li > a:hover { background-color: #6F7D9F; color:#fff; }
   
   .result_01 {
     float:left;
@@ -313,8 +313,8 @@
     border:1px solid #2D2E82;
     border-radius:5px;
   }
-  .contact_info li a:focus { outline:0; background-color: #6F7D8F; color:#fff; }
-  .contact_info li a:hover { background-color: #6F7D8F; color:#fff; }
+  .contact_info li a:focus { outline:0; background-color: #6F7D9F; color:#fff; }
+  .contact_info li a:hover { background-color: #6F7D9F; color:#fff; }
 
   /* #sideBox ----------------------------------------- */
   #sideBox {
@@ -342,7 +342,7 @@
   #footBox {
     width: 100%; height:auto;
     padding:1rem;
-    background-color: #787878;
+    background-color: #6F7D9F;
     box-sizing: border-box;
   }
   #footBox p {
